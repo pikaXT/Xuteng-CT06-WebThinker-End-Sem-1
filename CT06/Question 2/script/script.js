@@ -2,7 +2,7 @@ let radius = 5;
 let pi = 3.14159;
 
 const area_circle = () => {
-    console.log(radius * pi);
+    console.log(radius * pi * radius);
 }
 
-printHello();
+area_circle();
